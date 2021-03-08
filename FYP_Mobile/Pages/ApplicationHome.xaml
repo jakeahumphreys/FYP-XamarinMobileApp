@@ -8,10 +8,36 @@
                      Clicked="OnLogoutButtonClicked"
                      Priority="0" />
     </ContentPage.ToolbarItems>
-    <StackLayout>
-        <Button Text="Locations"
+    <StackLayout Padding="20" Spacing="0">
+        <Button Text="Update Status"
+                BackgroundColor="Orange"
+                TextColor="White"
                 VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
+                Clicked="UpdateStatus" />
+        <Button Text="Report Location"
+                BackgroundColor="CadetBlue"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ReportGpsLocation" />
+        <Button Text="Locations"
+                BackgroundColor="CadetBlue"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
                 Clicked="OnLocationButtonClicked" />
+        <Button Text="Send Check-In"
+                BackgroundColor="ForestGreen"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SendCheckIn" />
+        <Button Text="Routine Message"
+                BackgroundColor="CadetBlue"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SendRoutineMessage" />
+        <Button Text="Urgent Assistance"
+                BackgroundColor="DarkRed"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SendUrgentAssistanceRequest" />
     </StackLayout>
 </ContentPage>

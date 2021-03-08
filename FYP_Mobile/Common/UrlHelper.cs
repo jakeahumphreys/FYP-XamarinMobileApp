@@ -11,5 +11,8 @@ namespace FYP_Mobile.Common
         public static string LoginUrl = ApiUrl + "Account/";
         public static string LocationUrl = ApiUrl + "StoredLocation";
         public static string NoteUrl = ApiUrl + "Note";
+        public static string GpsReportUrl = ApiUrl + "GpsReport/";
+        public static string StatusUrl = ApiUrl + "Status/";
+        public static string MessageUrl = ApiUrl + "Message/";
     }
 }

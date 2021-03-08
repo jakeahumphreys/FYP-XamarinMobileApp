@@ -28,6 +28,7 @@ namespace FYP_Mobile.Pages
         {
             var url = UrlHelper.NoteUrl + $"/?storedLocationId={_locationId}";
             var webRequest = (HttpWebRequest) WebRequest.Create(url);
+            webRequest.ServerCertificateValidationCallback = delegate { return true; };
             webRequest.Method = "POST";
             webRequest.AllowAutoRedirect = false;
             webRequest.ContentType = "application/json";

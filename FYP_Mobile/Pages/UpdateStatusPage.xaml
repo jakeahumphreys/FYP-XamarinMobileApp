@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FYP_Mobile.Pages.UpdateStatusPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Not On Shift"
+                    BackgroundColor="DimGray"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SetNotOnShift" />
+            <Button Text="On Shift, Not Mobile"
+                    BackgroundColor="CadetBlue"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SetOnShiftNotMobile" />
+            <Button Text="Transiting to Location"
+                    BackgroundColor="CadetBlue"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SetTransitToLocation" />
+            <Button Text="At Location"
+                    BackgroundColor="ForestGreen"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SetAtLocation" />
+            <Button Text="Break"
+                    BackgroundColor="CadetBlue"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SetBreak" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
