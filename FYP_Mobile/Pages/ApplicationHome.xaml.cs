@@ -26,5 +26,10 @@ namespace FYP_Mobile.Pages
                 App.Current.MainPage = new LoginPage();
             }
         }
+
+        public void OnLocationButtonClicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new Locations();
+        }
     }
 }

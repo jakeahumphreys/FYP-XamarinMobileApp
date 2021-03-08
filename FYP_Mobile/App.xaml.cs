@@ -16,7 +16,6 @@ namespace FYP_Mobile
 
         protected override void OnStart()
         {
-
             if (!File.Exists(FileHelper.UserFile))
             {
                 MainPage = new LoginPage();

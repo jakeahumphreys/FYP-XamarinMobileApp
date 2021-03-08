@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps1="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="FYP_Mobile.Pages.SelectedLocation"
+             x:Name="SelectedLocationPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="View In Map"
+                     Order="Primary"
+                     Clicked="OnMapViewClicked"
+                     Priority="0" />
+        <ToolbarItem Text="Add Note"
+                     Order="Primary"
+                     Clicked="OnAddNoteClicked"
+                     Priority="0" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <Label x:Name="locationLabel"
+                           VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="CenterAndExpand"
+                           FontSize="Medium"/>
+                </StackLayout>
+                <Label x:Name="LocationNotes"
+                       Text="Location Notes"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Small"/>
+                <ListView x:Name ="NotesList" ItemsSource="{Binding Notes}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Content}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

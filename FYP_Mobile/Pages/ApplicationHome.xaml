@@ -9,8 +9,9 @@
                      Priority="0" />
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Label Text="Welcome to Xamarin.Forms!"
-               VerticalOptions="CenterAndExpand" 
-               HorizontalOptions="CenterAndExpand" />
+        <Button Text="Locations"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnLocationButtonClicked" />
     </StackLayout>
 </ContentPage>
