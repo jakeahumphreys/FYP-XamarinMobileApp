@@ -99,7 +99,7 @@ namespace FYP_Mobile.Pages
 
         private void SendRoutineMessage(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            App.Current.MainPage = new NavigationPage(new UsersPage());
         }
 
         async void SendUrgentAssistanceRequest(object sender, EventArgs e)

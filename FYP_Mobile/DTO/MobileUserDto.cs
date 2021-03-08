@@ -14,5 +14,14 @@ namespace FYP_Mobile.DTO
         public string FirstName { get; set; }
         [DataMember(Name = "User_Surname")]
         public string Surname { get; set; }
+
+        [DataMember(Name = "User_ListDisplay")]
+        public string ListDisplay
+        {
+            get
+            {
+                return FirstName + " " + Surname;
+            }
+        }
     }
 }

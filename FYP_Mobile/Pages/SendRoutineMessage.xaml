@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FYP_Mobile.Pages.SendRoutineMessage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="MessageText" Placeholder="Enter message content..."></Entry>
+            <Button Text="Submit Message"
+                    BackgroundColor="CadetBlue"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="SubmitMessage" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
