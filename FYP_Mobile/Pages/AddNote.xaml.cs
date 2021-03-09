@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper.Configuration.Conventions;
 using FYP_Mobile.Common;
+using FYP_Mobile.DTO;
 using FYP_Mobile.Models;
 using Newtonsoft.Json;
 using Xamarin.Forms;
@@ -26,6 +27,8 @@ namespace FYP_Mobile.Pages
 
         public void OnSubmitButtonClicked(object sender, EventArgs e)
         {
+            MobileUserDto user = JsonConvert.DeserializeObject<MobileUserDto>(File.ReadAllText(FileHelper.UserFile));
+
             var url = UrlHelper.NoteUrl + $"/?storedLocationId={_locationId}";
             var webRequest = (HttpWebRequest) WebRequest.Create(url);
             webRequest.ServerCertificateValidationCallback = delegate { return true; };
@@ -35,7 +38,9 @@ namespace FYP_Mobile.Pages
 
             var noteRequest = new Note
             {
-                Content = NoteContent.Text
+                Content = NoteContent.Text,
+                SenderId = user.Id,
+                TimeCreated = DateTime.Now
             };
 
             var jsonString = JsonConvert.SerializeObject(noteRequest);
