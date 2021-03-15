@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FYP_Mobile.Common.FileHelper">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Common\FileHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Common.UrlHelper">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAABCAAAAAAQAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Common\UrlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.DTO.GpsReport">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>DTO\GpsReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.DTO.MessageDto">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\MessageDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.DTO.MobileUserDto">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\MobileUserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.DTO.StatusUpdate">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\StatusUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Models.GpsPosition">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\gpsPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Models.Location">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAEEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Models.Note">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Note.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.AddNote">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\AddNote.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.ApplicationHome">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAABAAAAACABAAAAAAAAAAAAIAAACQAACBA=</HashCode>
+      <FileName>Pages\ApplicationHome.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.Locations">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Locations.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.LoginPage">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.SelectedLocation">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAIAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SelectedLocation.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.SendRoutineMessage">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SendRoutineMessage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.UpdateStatusPage">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAIgAAAAAAAABAAAAAAAAAoAAAEAAAAAA=</HashCode>
+      <FileName>Pages\UpdateStatusPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.Pages.UsersPage">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBCAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\UsersPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.ViewModels.LoginViewModel" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAIAAAAAAQAAAAEAgAAAAAACBAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FYP_Mobile.App">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Mobile.MainPage">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FYP_Mobile.Common.MessageType">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FYP_Mobile.Common.Status">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAABACAEAAAAAAAAAABCAAAAAAAAABA=</HashCode>
+      <FileName>Common\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
